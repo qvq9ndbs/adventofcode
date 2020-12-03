@@ -13,6 +13,7 @@ public class Day01 {
 
     public static void main(String[] args) {
         Day01 logic = new Day01();
+        System.out.println("------ DAY ONE ------\n");
         logic.partOne();
         logic.partTwo();
     }
@@ -24,7 +25,6 @@ public class Day01 {
     }
 
     private void partOne(){
-
         System.out.println("---- PART ONE ----\n");
         List<Integer> list = setUp();
 
