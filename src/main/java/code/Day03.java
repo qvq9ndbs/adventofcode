@@ -2,13 +2,6 @@ package code;
 
 import shared.Reader;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.stream.IntStream;
-
 public class Day03 {
     private static final Reader reader = new Reader();
     private static final String path = "src/main/resources/day03.txt";
@@ -41,7 +34,7 @@ public class Day03 {
         StringBuilder map = new StringBuilder();
         int xCo = 0;
         int maxRowSize = input[0].length();
-        for(int i = 1; i < input.length; i += ySteps){
+        for(int i = ySteps; i < input.length; i += ySteps){
             xCo = (xCo + xSteps) % maxRowSize;
             map.append(input[i].charAt(xCo));
         }
