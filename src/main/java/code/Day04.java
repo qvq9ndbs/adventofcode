@@ -15,13 +15,13 @@ public class Day04 {
         logic.partTwo();
     }
 
-    private List<List<String>> setUp(){
-        List<List<String>> list = reader.readBatches(path);
+    private List<List<Map<String, String>>> setUp(){
+        List<List<Map<String, String>>> list = reader.readBatches(path);
         return list;
     }
 
     private void partOne(){
-        List<List<String>> list = setUp();
+        List<List<Map<String, String>>> list = setUp();
     }
 
     private void partTwo(){

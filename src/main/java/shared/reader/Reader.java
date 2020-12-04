@@ -2,10 +2,10 @@ package shared.reader;
 
 import java.io.File;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Reader {
     private Scanner scanner;
+    public static final String SPACE = " ";
 
     public List<String> readStrings(String path){
         List<String> list = new ArrayList<>();
@@ -21,8 +21,7 @@ public class Reader {
         return list;
     }
 
-    public List<List<String>> readBatches(String path){
-        List<List<String>> lists = new ArrayList<>();
+    public List<List<Map<String, String>>> readBatches(String path){
         List<String> rawInput = new ArrayList<>();
         List<String> saveInput = new ArrayList<>();
         try{
@@ -36,18 +35,24 @@ public class Reader {
         }
 
         rawInput.forEach((String s) -> {
-            String[] strings = s.split(" ");
-            for(String string : strings){
-                    saveInput.add(string);
-            }
+            String[] strings = s.split(SPACE);
+            saveInput.addAll(Arrays.asList(strings));
         });
 
-
-        saveInput.forEach(System.out::println);
-
-        /*
-        lists.add(DIVIDED SETS)
-        */
-        return lists;
+        List<List<Map<String, String>>> mapList = new ArrayList<>();
+        List<Map<String, String>> strings = new ArrayList<>();
+        for(String string : saveInput){
+            if(!string.isEmpty()){
+                Map<String, String> map = new HashMap<>();
+                int colon = string.indexOf(':');
+                map.put(string.substring(0, colon), string.substring(colon));
+                strings.add(map);
+            }else{
+                mapList.add(strings);
+                strings = new ArrayList<>();
+            }
+        }
+        System.out.println(mapList);
+        return mapList;
     }
 }
