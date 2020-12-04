@@ -1,6 +1,6 @@
 package code;
 
-import shared.Reader;
+import shared.reader.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -20,7 +20,7 @@ public class Day01 {
 
     private List<Integer> setUp(){
         List<Integer> list  = new ArrayList<>();
-        reader.read(path).forEach((String s) -> list.add(Integer.valueOf(s)));
+        reader.readStrings(path).forEach((String s) -> list.add(Integer.valueOf(s)));
         return list;
     }
 

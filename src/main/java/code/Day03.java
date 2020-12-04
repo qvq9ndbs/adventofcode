@@ -1,6 +1,8 @@
 package code;
 
-import shared.Reader;
+import shared.reader.*;
+
+import java.util.List;
 
 public class Day03 {
     private static final Reader reader = new Reader();
@@ -15,10 +17,11 @@ public class Day03 {
 
     private String[] setUp(){
         final int[] counter = {0};
-        reader.read(path).forEach((String s) -> counter[0]++);
+        List<String> list = reader.readStrings(path);
+        list.forEach((String s) -> counter[0]++);
         String[] outputs = new String[counter[0]];
         counter[0] = 0;
-        reader.read(path).forEach((String s) -> {
+        list.forEach((String s) -> {
             String output = "";
             for(int i = 0; i < s.length(); i++){
                 output += s.charAt(i);
