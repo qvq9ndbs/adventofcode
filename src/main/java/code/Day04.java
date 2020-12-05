@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class Day04 {
     private static final Reader reader = new Reader();
-    private static final String path = "src/main/resources/day04.txt";
+    private static final String path = "src/main/resources/input/day04.txt";
 
     public static void main(String[] args) {
         Day04 logic = new Day04();
@@ -99,7 +99,6 @@ public class Day04 {
         }
         System.out.println("Number of correct passport: " + count);
 
-
     }
 
     private String[] regexOne(){
@@ -125,5 +124,4 @@ public class Day04 {
                 ".*\\bpid:\\d{9}\\b.*"
         };
     }
-
 }

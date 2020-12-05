@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Day03 {
     private static final Reader reader = new Reader();
-    private static final String path = "src/main/resources/day03.txt";
+    private static final String path = "src/main/resources/input/day03.txt";
 
     public static void main(String[] args) {
         Day03 logic = new Day03();

@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Day01 {
-    public static final String path = "src/main/resources/day01.txt";
+    public static final String path = "src/main/resources/input/day01.txt";
     public static final int target = 2020;
     public static final Reader reader = new Reader();
 
