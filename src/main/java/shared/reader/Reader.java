@@ -52,7 +52,6 @@ public class Reader {
                 strings = new ArrayList<>();
             }
         }
-        System.out.println(mapList);
         return mapList;
     }
 }
