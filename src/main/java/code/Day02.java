@@ -1,7 +1,7 @@
 package code;
 
-import helpers.Day02DTO;
-import shared.Reader;
+import helpers.day02.PasswordDTO;
+import shared.reader.*;
 
 import java.util.*;
 
@@ -16,8 +16,8 @@ public class Day02 {
         logic.partTwo();
     }
 
-    private Day02DTO setUp(){
-        List<String> list = reader.read(path);
+    private PasswordDTO setUp(){
+        List<String> list = reader.readStrings(path);
         List<Character> chars = new ArrayList<>();
         List<String> passwords = new ArrayList<>();
         List<Integer> lowerRanges = new ArrayList<>();
@@ -30,12 +30,12 @@ public class Day02 {
             passwords.add(list.get(i+2)); // password
         }
 
-        return new Day02DTO(lowerRanges, upperRanges, chars, passwords);
+        return new PasswordDTO(lowerRanges, upperRanges, chars, passwords);
     }
 
     private void partOne(){
         System.out.println("---- PART ONE ----\n");
-        Day02DTO dto = setUp();
+        PasswordDTO dto = setUp();
 
         int result = 0;
 
@@ -53,7 +53,7 @@ public class Day02 {
 
     private void partTwo(){
         System.out.println("---- PART TWO ----\n");
-        Day02DTO dto = setUp();
+        PasswordDTO dto = setUp();
 
         int result = 0;
 
