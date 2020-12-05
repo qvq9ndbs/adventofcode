@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Day02 {
     public static final Reader reader = new Reader();
-    public static final String path = "src/main/resources/day02.txt";
+    public static final String path = "src/main/resources/input/day02.txt";
 
     public static void main(String[] args) {
         Day02 logic = new Day02();
