@@ -1,6 +1,8 @@
 package shared.reader;
 
 import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.*;
 
 public class Reader {
@@ -19,6 +21,16 @@ public class Reader {
             e.printStackTrace();
         }
         return list;
+    }
+
+    public String readString(String path){
+        String result = "";
+        try{
+            result = Files.readString(Path.of(path));
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return result;
     }
 
 }
