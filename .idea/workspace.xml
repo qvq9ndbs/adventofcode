@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e03fdf9-ea6a-4374-b76d-40d3fb6f8831" name="Default Changelist" comment="" />
+    <list default="true" id="1e03fdf9-ea6a-4374-b76d-40d3fb6f8831" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/Day08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Day08.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +45,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Users\qvq9ndbs\Documents\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -124,22 +127,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1607105599162" />
-    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1607701217678">
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1608733686511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1607701217678" />
-    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1607701217678">
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608733686511" />
+    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1608733686511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1607701217678" />
-    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1607701217678">
+    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608733686511" />
+    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1608733686511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1607701217678" />
-    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1607701217678">
+    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608733686511" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1608733686511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1607701217678" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608733686511" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607695079452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
