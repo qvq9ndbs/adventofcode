@@ -3,7 +3,6 @@ package code;
 import shared.reader.Reader;
 
 import java.util.*;
-import java.util.Map.Entry;
 
 public class Day05 {
     private final static Reader reader = new Reader();
