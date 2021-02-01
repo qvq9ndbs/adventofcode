@@ -18,7 +18,7 @@ public class Day08 {
     public static void main(String[] args) {
         Day08 logic = new Day08();
         System.out.println("\n------ DAY SIX ------\n");
-        // logic.partOne();
+         logic.partOne();
         logic.partTwo();
     }
 

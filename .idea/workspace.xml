@@ -23,7 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e03fdf9-ea6a-4374-b76d-40d3fb6f8831" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/Day17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/input/day17.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AOC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AOC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AOCApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AOCApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/Day08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Day08.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

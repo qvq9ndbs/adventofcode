@@ -12,6 +12,7 @@ public class AOCApp {
 //        Day05.main(placeholder);
 //        Day06.main(placeholder);
 
-        Day08.main(placeholder);
+//        Day08.main(placeholder);
+          Day17.main(placeholder);
     }
 }
