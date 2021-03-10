@@ -1,6 +1,6 @@
-package code;
+package adventofcode.code;
 
-import shared.reader.Reader;
+import adventofcode.shared.reader.Reader;
 
 import java.util.*;
 import java.util.Map.*;
@@ -18,7 +18,7 @@ public class Day08 {
     public static void main(String[] args) {
         Day08 logic = new Day08();
         System.out.println("\n------ DAY SIX ------\n");
-        logic.partOne();
+        // logic.partOne();
         logic.partTwo();
     }
 
@@ -56,6 +56,8 @@ public class Day08 {
             accumulator = 0;
             instructionCounter = 0;
             runWithException(commands, replaceCommand(commands, JMP, i));
+
+
         }
 
         counter = countNOP(commands);
@@ -64,7 +66,11 @@ public class Day08 {
             accumulator = 0;
             instructionCounter = 0;
             runWithException(commands, replaceCommand(commands, NOP, i));
+
+
+
         }
+
     }
 
     private void runWithException(List<Entry<String, Integer>> commands, int exception){

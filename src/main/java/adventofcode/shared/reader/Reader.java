@@ -1,4 +1,4 @@
-package shared.reader;
+package adventofcode.shared.reader;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -21,7 +21,6 @@ public class Reader {
         }
         return list;
     }
-
     public List<String> readLines(String path){
         List<String> list = new ArrayList<>();
         try{
